@@ -1,0 +1,45 @@
+.section-work {
+  width: 100%;
+  padding: 6.5rem 0;
+  background-color: $color-primary-medium;
+
+  &__title {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+}
+
+.section-about {
+  width: 100%;
+  padding: 6.5rem 0;
+  background-color: $color-primary-light;
+
+  &__title {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+
+  &__description {
+    max-width: 90rem;
+    background-color: $color-primary-dark;
+    border: 1px solid $color-grey;
+    border-radius: 0.8rem;
+    margin: 0 auto;
+    padding: 2.5rem;
+  }
+}
+
+.section-contact {
+  width: 100%;
+  padding: 6.5rem 0;
+  background-color: $color-primary-medium;
+
+  &__title {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+
+  &__cards {
+    display: flex;
+  }
+}

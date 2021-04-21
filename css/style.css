@@ -1,0 +1,209 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #fff; }
+
+.primary-heading {
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: Pacifico;
+  line-height: 1; }
+
+.secondary-heading {
+  font-size: 7rem;
+  font-weight: 600;
+  font-family: "Oswald";
+  line-height: 1;
+  text-transform: uppercase; }
+
+.tertiary-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Open Sans";
+  line-height: 1; }
+
+.paragraph {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #827c85; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.u-margin-bottom-tiny {
+  margin-bottom: 2rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 4.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 6rem; }
+
+.btn, .btn:link, .btn:visited {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #827c85;
+  background-color: transparent;
+  padding: 1rem 2.3rem;
+  border: 1px solid #827c85;
+  border-radius: 200px; }
+
+.btn:hover {
+  background-color: #fff;
+  color: #0f0717;
+  cursor: pointer; }
+
+.project {
+  max-width: 90rem;
+  background-color: #0f0717;
+  border: 1px solid #827c85;
+  border-radius: 0.8rem;
+  margin: 0 auto;
+  padding: 2.5rem; }
+  .project:not(:last-child) {
+    margin-bottom: 4rem; }
+  .project__info {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #827c85;
+    padding-bottom: 2.5rem;
+    width: 100%; }
+  .project__title {
+    width: 50%; }
+  .project__description {
+    width: 60%; }
+  .project__skills {
+    width: 40%;
+    align-self: flex-end;
+    text-align: right; }
+  .project__buttons {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; }
+  .project__img {
+    height: 50rem; }
+
+.card:link, .card:visited {
+  flex: 0 0 33%;
+  border: 1px solid #827c85;
+  border-radius: 0.8rem;
+  background-color: #140c1c;
+  padding: 2.5rem;
+  text-decoration: none;
+  color: #fff; }
+
+.card:hover {
+  color: #140c1c;
+  border: 1px solid #fff;
+  background-color: #fff; }
+
+.card--accent:link, .card--accent:visited {
+  border: 1px solid #df3f7f;
+  background-color: #df3f7f; }
+  .card--accent:link:hover, .card--accent:visited:hover {
+    border: 1px solid #fff;
+    background-color: #fff; }
+    .card--accent:link:hover p, .card--accent:visited:hover p {
+      color: #140c1c; }
+
+.card:not(:last-child) {
+  margin-right: 1.8rem; }
+
+.card__title {
+  margin-bottom: 1.3rem; }
+
+.card__description {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #827c85; }
+  .card__description--accent {
+    color: #fff; }
+
+.footer {
+  width: 100%;
+  padding: 0 0 6.5rem 0;
+  background-color: #140c1c; }
+  .footer__text {
+    text-align: center; }
+
+.header {
+  width: 100vw;
+  background-color: #1c1024;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .header__name {
+    margin-top: 5rem;
+    margin-bottom: 12rem; }
+  .header__title-text span {
+    font-size: 15.5rem;
+    font-weight: 700;
+    font-family: Oswald;
+    line-height: 1;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4rem; }
+  .header__skills {
+    width: 90rem;
+    margin: 0 auto; }
+  .header__icons {
+    display: flex;
+    justify-content: space-between; }
+  .header__icon {
+    font-size: 3.8rem;
+    font-weight: 600;
+    font-family: Oswald; }
+
+.section-work {
+  width: 100%;
+  padding: 6.5rem 0;
+  background-color: #140c1c; }
+  .section-work__title {
+    max-width: 90rem;
+    margin: 0 auto; }
+
+.section-about {
+  width: 100%;
+  padding: 6.5rem 0;
+  background-color: #1c1024; }
+  .section-about__title {
+    max-width: 90rem;
+    margin: 0 auto; }
+  .section-about__description {
+    max-width: 90rem;
+    background-color: #0f0717;
+    border: 1px solid #827c85;
+    border-radius: 0.8rem;
+    margin: 0 auto;
+    padding: 2.5rem; }
+
+.section-contact {
+  width: 100%;
+  padding: 6.5rem 0;
+  background-color: #140c1c; }
+  .section-contact__title {
+    max-width: 90rem;
+    margin: 0 auto; }
+  .section-contact__cards {
+    display: flex; }

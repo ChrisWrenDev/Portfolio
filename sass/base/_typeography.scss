@@ -1,0 +1,40 @@
+.primary-heading {
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: Pacifico;
+  line-height: 1;
+}
+
+.secondary-heading {
+  font-size: 7rem;
+  font-weight: 600;
+  font-family: "Oswald";
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.tertiary-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Open Sans";
+  line-height: 1;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: $color-grey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
